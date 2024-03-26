@@ -4,9 +4,9 @@ PKG_NAME:=ngtcp2
 PKG_VERSION:=1.4.0
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/ngtcp2/ngtcp2/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=c9678997e5ec9b7e35458419f7482440a3161ed1ed06e2882d324a69113fe52d
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
+PKG_SOURCE_URL:=https://github.com/ngtcp2/$(PKG_NAME)/releases/download/v$(PKG_VERSION)/
+PKG_HASH:=b5d1433b9f5c06ce249e1e390e97dcfa49bf7ada5cb7c8bed8e6cd4feaf1ca4a
 
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=COPYING
