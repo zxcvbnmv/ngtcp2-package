@@ -2,11 +2,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ngtcp2
 PKG_VERSION:=1.4.0
-PKG_RELEASE:=1
+PKG_RELEASE:=-main-8e0a4e0
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=https://github.com/ngtcp2/$(PKG_NAME)/releases/download/v$(PKG_VERSION)/
-PKG_HASH:=b5d1433b9f5c06ce249e1e390e97dcfa49bf7ada5cb7c8bed8e6cd4feaf1ca4a
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://github.com/ngtcp2/$(PKG_NAME)/tar.gz/refs/heads/main
+PKG_HASH:=6ef126db3e7e618a23c5885e980b74305ae456bd9ef083800bdf76f1b951bdfa
 
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=COPYING
