@@ -1,5 +1,5 @@
 --- /dev/null
-+++ b/COPYING
++++ b/tests/munit/COPYING
 @@ -0,0 +1,21 @@
 +µnit Testing Framework
 +Copyright (c) 2013-2016 Evan Nemerson <evan@nemerson.com>
