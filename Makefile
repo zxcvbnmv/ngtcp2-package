@@ -1,16 +1,17 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ngtcp2
-PKG_VERSION:=1.4.0
-PKG_RELEASE:=-main-8e0a4e0
+PKG_VERSION:=main
+PKG_RELEASE:=-8e0a4e0
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/ngtcp2/$(PKG_NAME)/tar.gz/refs/heads/main
-PKG_HASH:=6ef126db3e7e618a23c5885e980b74305ae456bd9ef083800bdf76f1b951bdfa
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_URL:=https://github.com/ngtcp2/ngtcp2.git
+PKG_SOURCE_VERSION:=8e0a4e01f4ab05659e7c17cf119d72120b07808c
+PKG_HASH:=4655991be5307323c36c16ba185b4beffc9f6fd04b73beba361aacf4fb5373f7
 
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=COPYING
-PKG_MAINTAINER:=Stan Grishin <stangri@melmac.ca>
+PKG_MAINTAINER:=
 
 PKG_FIXUP:=autoreconf
 PKG_INSTALL:=1
