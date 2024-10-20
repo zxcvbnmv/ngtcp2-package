@@ -1,8 +1,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ngtcp2
-PKG_VERSION:=1.8.0-dev
-PKG_RELEASE:=8d5ab78
+PKG_VERSION:=1.9.0-dev
+PKG_RELEASE:=e550c1a
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/ngtcp2/ngtcp2.git
